@@ -1,0 +1,22 @@
+description: Ultralytics YOLOv8s-cls model trained on /content/Recycling-Classification-5
+author: Ultralytics
+date: '2025-03-29T21:08:04.140566'
+version: 8.3.98
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 1
+task: classify
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: cardboard
+  1: glass
+  2: metal
+  3: paper
+  4: plastic
+  5: trash
+args:
+  batch: 1
+  half: false
